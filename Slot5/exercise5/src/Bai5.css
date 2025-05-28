@@ -1,0 +1,94 @@
+/* Banner image styling */
+.banner-container {
+  background-color: #ff6600;
+  padding: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; 
+}
+
+.banner-img {
+  width: 100%;
+  max-width: 1350px;     /* Giới hạn chiều rộng tối đa */
+  height: auto;
+  object-fit: contain;
+}
+
+.topbar-bg {
+  background-color: #ffe5b4; /* màu cam nhạt */
+}
+.topbar-link {
+  color: #ff6600; 
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topbar-link:hover {
+  color: #e65c00; 
+}
+.custom-xs-search {
+  height: 25px;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+/* Student card image size */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Radio button alignment */
+.card .form-check-input {
+  margin-top: 0;
+}
+
+/* Button style */
+.card .btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Footer text and spacing */
+footer p, footer div {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Breadcrumb style */
+
+
+/* Breadcrumb chỉnh nền xám, nhỏ gọn */
+.custom-breadcrumb {
+  background-color: #dbdee1; /* xám nhẹ */
+  padding: 6px 14px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+/* Link Home */
+.custom-breadcrumb .breadcrumb-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Divider */
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  color: #ced0d2;
+  padding: 0 6px;
+}
+
+/* Màu chữ phần Students */
+.custom-breadcrumb .breadcrumb-item.active {
+  color: #acafb1;
+}
+
+
+/* Global font */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}

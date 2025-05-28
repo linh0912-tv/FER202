@@ -1,0 +1,16 @@
+body {
+  background-color: #fffaf0;
+}
+
+.header {
+  background-color: #f5d6a2;
+}
+
+.footer {
+  background-color: #f48220;
+}
+
+.footer .social-icons i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}

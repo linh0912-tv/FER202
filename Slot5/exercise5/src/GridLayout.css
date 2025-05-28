@@ -1,0 +1,27 @@
+.header-bg {
+  background-color: #e9ecef;
+  padding: 20px;
+}
+
+.header-links .nav-link {
+  margin: 0 10px;
+  color: #007bff !important;
+}
+
+.header-links .nav-link:hover {
+  text-decoration: underline;
+}
+
+.grid-item {
+  background-color: #ccc;
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-bg {
+  background-color: #d3c6c6;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
