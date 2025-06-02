@@ -1,0 +1,80 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+.hero-section {
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-card {
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.sale-badge,
+.new-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.sale-badge {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.new-badge {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  margin-right:5rem;
+  margin-left: 4rem;
+}
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0;
+  gap: 1rem;
+}
+
+.navbar .d-flex {
+  margin-left: auto;
+  margin-right: 4rem;
+}
+
+/* Đảm bảo carousel không vượt quá chiều rộng */
+.carousel {
+  width: 100%;
+  max-width: 100%;
+}
