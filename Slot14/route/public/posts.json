@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "title": "React Router Basics",
+    "content": "This post explains the basics of React Router in a React application. React Router is a powerful library that enables navigation between different components in a React application, allowing you to build single-page applications (SPAs) with multiple views."
+  },
+  {
+    "id": "2",
+    "title": "React Bootstrap Introduction",
+    "content": "This post introduces how to use React Bootstrap to create beautiful UIs. React Bootstrap provides Bootstrap components built specifically for React, making it easy to create responsive and attractive user interfaces."
+  },
+  {
+    "id": "3",
+    "title": "JavaScript ES6 Features",
+    "content": "This post discusses the new features introduced in JavaScript ES6. ES6 brought many powerful features like arrow functions, destructuring, template literals, and more that make JavaScript development more efficient and enjoyable."
+  }
+]

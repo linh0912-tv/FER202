@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "JSON Server Tutorial",
+      "content": "This post explains how to use JSON Server to create a fake REST API for testing and prototyping. JSON Server is a great tool for frontend developers who need to quickly set up a backend API."
+    },
+    {
+      "id": 2,
+      "title": "React Hooks Deep Dive",
+      "content": "Learn about React Hooks including useState, useEffect, useContext, and custom hooks. This comprehensive guide covers best practices and common patterns."
+    },
+    {
+      "id": 3,
+      "title": "Modern CSS Techniques",
+      "content": "Explore modern CSS features like Grid, Flexbox, CSS Variables, and more. Learn how to create responsive and maintainable stylesheets."
+    },
+    {
+      "id": 4,
+      "title": "API Integration Patterns",
+      "content": "Best practices for integrating APIs in React applications, including error handling, loading states, and data caching strategies."
+    }
+  ]
+}
