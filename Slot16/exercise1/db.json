@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Bài viết đầu tiên",
+      "content": "Đây là nội dung của bài viết đầu tiên. Bài viết này giúp bạn hiểu cách sử dụng React với JSON server."
+    },
+    {
+      "id": 2,
+      "title": "Học React từ cơ bản",
+      "content": "React là một thư viện JavaScript mạnh mẽ để xây dựng giao diện người dùng. Bài viết này sẽ hướng dẫn bạn từ những kiến thức cơ bản nhất."
+    },
+    {
+      "id": 3,
+      "title": "Fetching Data trong React",
+      "content": "Việc lấy dữ liệu từ API là một kỹ năng quan trọng trong React. Bài này sẽ hướng dẫn bạn cách sử dụng fetch và axios."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123"
+    }
+  ]
+}
