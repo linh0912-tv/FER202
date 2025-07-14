@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+/* Custom animations and effects */
+.laptop-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.laptop-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15) !important;
+}
+
+.laptop-image {
+  transition: transform 0.3s ease;
+}
+
+.laptop-card:hover .laptop-image {
+  transform: scale(1.05);
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0.75rem;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.search-container {
+  margin-bottom: 2rem;
+}
+
+/* Button animations */
+.btn {
+  transition: all 0.2s ease;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #003d82);
+}
+
+/* Loading animation */
+.spinner-border {
+  animation: spinner-border 0.75s linear infinite;
+}
+
+/* Badge animations */
+.badge {
+  transition: all 0.2s ease;
+}
+
+/* Custom responsive utilities */
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .laptop-card:hover {
+    transform: none;
+  }
+  
+  .laptop-card:hover .laptop-image {
+    transform: none;
+  }
+}
+
+/* Background patterns */
+.bg-light {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
+
+/* Icon styling */
+.fas {
+  transition: all 0.2s ease;
+}
+
+/* Header styling */
+.bg-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3) !important;
+}
+
+/* Form styling */
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Alert animations */
+.alert {
+  animation: slideInDown 0.3s ease;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
